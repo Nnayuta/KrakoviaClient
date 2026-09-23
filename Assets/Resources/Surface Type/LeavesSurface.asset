@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbde74850485af247ac15f6ebf3f655f, type: 3}
+  m_Name: LeavesSurface
+  m_EditorClassIdentifier: Assembly-CSharp::SurfaceType
+  FootstepSounds:
+  - {fileID: 8300000, guid: 03e0be3d4ce61d34da02d3d0a674d54a, type: 3}
+  - {fileID: 8300000, guid: bd2143d05a8cf734ea23012e5c3e4dbd, type: 3}
+  - {fileID: 8300000, guid: 5e1dbdb3454a3244d88f4178f8a08a08, type: 3}
+  - {fileID: 8300000, guid: 81ca12f276403d4429d50fcf4cf8629a, type: 3}
+  - {fileID: 8300000, guid: 80e0ad20812b5da4da809eb1976d38c6, type: 3}
+  - {fileID: 8300000, guid: 55a5a001ad9ac3b429adbbe18412b1f9, type: 3}

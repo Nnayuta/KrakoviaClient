@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: elite_wolf_3fab7236
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: elite_wolf_3fab7236
+  displayName: '[ELITE] Lobo'
+  npcPrefab: {fileID: 468274157091522207, guid: f057853ead2855f46b8fde35d44cf040, type: 3}
+  nameplateYOffset: -2
+  genderSetting: 0
+  DefaultEquipment: []
+  faction: 0
+  isVendor: 0
+  aggroRange: 15
+  leashRange: 30
+  respawnTimeSeconds: 35
+  level: 2
+  archetype: 1
+  isBoss: 1
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 24
+  - Stat: 0
+    Value: 13
+  - Stat: 1
+    Value: 13
+  - Stat: 2
+    Value: 4
+  - Stat: 4
+    Value: 17
+  swingTimer: 4
+  autoAttackAbility: {fileID: 11400000, guid: e3006a3a6b84c5f4b947621c7ff6f28f, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: bb7ce7c812b7da64ab9b2c93d687d9de, type: 2}
+  - {fileID: 11400000, guid: 2a58bba157970ae42bd63c07bd6656f5, type: 2}
+  experienceReward: 35
+  currencyReward: 90
+  lootTable: {fileID: 11400000, guid: d25f66e64ab972847b3c3885a6398c4f, type: 2}
+  AvailableQuests: []
+  DefaultDialogue: 

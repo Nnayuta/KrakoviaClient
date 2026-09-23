@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b84de2063e76b341981bb714e245e35, type: 3}
+  m_Name: ervas_medicas_01
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  QuestID: ervas_medicas_01
+  Category: 1
+  QuestName: Ervas Medicinais
+  Description: "O curandeiro da vila precisa de ervas para preparar rem\xE9dios."
+  OnAcceptDialogue: "Curandeiro: \u201CEsses tempos est\xE3o dif\xEDceis, viajante\u2026
+    Sem minhas ervas, n\xE3o consigo ajudar os doentes. Poderia buscar algumas para
+    mim?\u201D"
+  OnInProgressDialogue: "Curandeiro: \u201CConseguiu coletar as ervas? As pessoas
+    est\xE3o ficando piores a cada dia.\u201D"
+  OnCompleteDialogue: "Curandeiro: \u201CExcelente! Com isso j\xE1 posso preparar
+    os rem\xE9dios. Voc\xEA ajudou mais do que imagina.\u201D"
+  RequiredLevel: 1
+  PrerequisiteQuests: []
+  QuestGiver: {fileID: 0}
+  QuestCompleter: {fileID: 0}
+  Objectives:
+  - Type: 1
+    Description: "Coletar  {current}/{required} Erva Verde na floresta pr\xF3xima"
+    TargetID: erva_verde_01
+    RequiredAmount: 5
+  GuaranteedRewards:
+  - Type: 1
+    ItemID: 
+    Amount: 15
+    AbilityID: 
+  - Type: 2
+    ItemID: 
+    Amount: 5
+    AbilityID: 
+  ChooseOneRewards: []

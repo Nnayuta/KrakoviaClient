@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b84de2063e76b341981bb714e245e35, type: 3}
+  m_Name: slay_bear_01
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  QuestID: slay_bear_01
+  Category: 1
+  QuestName: "Ca\xE7a aos Ursos"
+  Description: "Os ursos t\xEAm atacado os viajantes na estrada."
+  OnAcceptDialogue: "Finalmente algu\xE9m disposto a ajudar! Os ursos est\xE3o ficando
+    ousados. Acabe com alguns deles para mostrar que n\xE3o somos presas f\xE1ceis."
+  OnInProgressDialogue: "Ainda h\xE1 Ursos rondando a estrada, n\xE3o pare agora!"
+  OnCompleteDialogue: "\xD3timo trabalho! A estrada j\xE1 parece mais segura. Aqui
+    est\xE1 sua recompensa."
+  RequiredLevel: 3
+  PrerequisiteQuests:
+  - {fileID: 11400000, guid: 1055c2a6d75dd134986f151e2a732601, type: 2}
+  QuestGiver: {fileID: 11400000, guid: 48559d52a755de4488a36deed3819835, type: 2}
+  QuestCompleter: {fileID: 11400000, guid: 48559d52a755de4488a36deed3819835, type: 2}
+  Objectives:
+  - Type: 0
+    Description: Eliminar {current}/{required} Ursos Selvagens.
+    TargetID: 090d7357
+    RequiredAmount: 6
+  GuaranteedRewards:
+  - Type: 2
+    ItemID: 
+    Amount: 10
+    AbilityID: 
+  - Type: 1
+    ItemID: 
+    Amount: 25
+    AbilityID: 
+  ChooseOneRewards: []

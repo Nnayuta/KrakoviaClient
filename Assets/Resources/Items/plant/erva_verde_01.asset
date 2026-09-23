@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0489dabcdf08bc4e8d44a3246478387, type: 3}
+  m_Name: erva_verde_01
+  m_EditorClassIdentifier: Assembly-CSharp::JunkItem
+  itemID: flower_blue_01
+  itemName: Erva Azul
+  icon: {fileID: 21300000, guid: fe9206383b6d8cc40ab3685c158bf99d, type: 3}
+  quality: 0
+  maxStackSize: 100
+  sellPrice: 3
+  requiredLevel: 1
+  itemLevel: 1
+  autoGenerateStats: 0
+  primaryStatFocus: 0
+  Stats: []

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: npc_Denilson
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: npc_Denilson
+  displayName: "Den\xEDlson, o Ca\xE7ador"
+  npcPrefab: {fileID: 3034758309187490702, guid: 116b7f3295d462647b043b64b15c960b, type: 3}
+  nameplateYOffset: 2
+  genderSetting: 1
+  DefaultEquipment:
+  - {fileID: 11400000, guid: 47be42ea2b43f794c8125daa1285778a, type: 2}
+  - {fileID: 11400000, guid: 9d119542318a5624f9b2c4890bb8a37e, type: 2}
+  - {fileID: 11400000, guid: 3268309dff17661448ce001005e5b11d, type: 2}
+  faction: 2
+  isVendor: 1
+  aggroRange: 15
+  leashRange: 30
+  respawnTimeSeconds: 60
+  level: 10
+  archetype: 3
+  isBoss: 0
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 22
+  - Stat: 0
+    Value: 22
+  - Stat: 1
+    Value: 22
+  - Stat: 2
+    Value: 22
+  - Stat: 4
+    Value: 55
+  swingTimer: 2
+  autoAttackAbility: {fileID: 0}
+  abilities: []
+  experienceReward: 0
+  currencyReward: 66
+  lootTable: {fileID: 0}
+  AvailableQuests: []
+  DefaultDialogue: "Matei tr\xEAs javalis ontem! Quer dizer... dois javalis e um
+    guarda que se mexeu estranho no mato. J\xE1 pedi desculpa."

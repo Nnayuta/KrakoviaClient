@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: cloth_template_boots_cloth
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: cloth_template_boots_cloth
+  itemName: Botas de Aprendiz
+  icon: {fileID: 21300000, guid: f25b16c7add794b4e89be33447aaf8a4, type: 3}
+  quality: 0
+  maxStackSize: 1
+  sellPrice: 10
+  requiredLevel: 1
+  itemLevel: 1
+  autoGenerateStats: 0
+  primaryStatFocus: 2
+  Stats: []
+  equipmentSlot: 5
+  femaleArmorPrefab: {fileID: 2897275991987334301, guid: 0508fdc640bd04744a4cfbe55a151dd3, type: 3}
+  maleArmorPrefab: {fileID: 8329367445451104273, guid: 8c296d5a69966f14ca1475052cc82ed8, type: 3}
+  armorType: 0
+  ColorType: 0
+  ColorVariations: []

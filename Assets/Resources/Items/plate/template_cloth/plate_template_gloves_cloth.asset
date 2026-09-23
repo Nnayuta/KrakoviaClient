@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: plate_template_gloves_cloth
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: plate_template_gloves_cloth
+  itemName: Luvas de Ferro
+  icon: {fileID: 21300000, guid: ea1c0f14db3c07c40aeecfb5442b0cf9, type: 3}
+  quality: 0
+  maxStackSize: 1
+  sellPrice: 10
+  requiredLevel: 1
+  itemLevel: 1
+  autoGenerateStats: 0
+  primaryStatFocus: 0
+  Stats: []
+  equipmentSlot: 6
+  femaleArmorPrefab: {fileID: 7464778610728836617, guid: da7b77e8b51d0cb4190f399f2e2176a1, type: 3}
+  maleArmorPrefab: {fileID: 3368521549194576574, guid: 1a4b695fc52d58f459ed3e85be7b52e8, type: 3}
+  armorType: 3
+  ColorType: 0
+  ColorVariations: []

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: giant_074a36b5
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: 074a36b5
+  displayName: Gigante de Terra
+  npcPrefab: {fileID: 1845945369076765872, guid: 3d2e6e9a35aebe848bcaf85c3ec6c0f1, type: 3}
+  nameplateYOffset: -2
+  genderSetting: 0
+  DefaultEquipment: []
+  faction: 0
+  isVendor: 0
+  aggroRange: 20
+  leashRange: 30
+  respawnTimeSeconds: 120
+  level: 25
+  archetype: 0
+  isBoss: 1
+  isWorldBoss: 1
+  stats:
+  - Stat: 3
+    Value: 679
+  - Stat: 0
+    Value: 159
+  - Stat: 1
+    Value: 102
+  - Stat: 2
+    Value: 72
+  - Stat: 4
+    Value: 455
+  swingTimer: 4
+  autoAttackAbility: {fileID: 11400000, guid: 40eaba0e05e17ce49a7401ac68f34591, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: 6328672cbf69d6d4c92815b7aad003ab, type: 2}
+  - {fileID: 11400000, guid: f6d2edf3484b10c44bed857ee92c2e20, type: 2}
+  - {fileID: 11400000, guid: 24dc09267cc8f0740a998665f5c61895, type: 2}
+  experienceReward: 500
+  currencyReward: 3465
+  lootTable: {fileID: 11400000, guid: 92d90a011c987e2439b441b6cbbf08ab, type: 2}
+  AvailableQuests: []
+  DefaultDialogue: 

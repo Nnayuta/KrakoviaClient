@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: plate_template_chest_cloth
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: plate_template_chest_cloth
+  itemName: Armadura de Ferro
+  icon: {fileID: 21300000, guid: c9d48411a39cdc9429fca1da96828e34, type: 3}
+  quality: 0
+  maxStackSize: 1
+  sellPrice: 17
+  requiredLevel: 1
+  itemLevel: 1
+  autoGenerateStats: 0
+  primaryStatFocus: 0
+  Stats: []
+  equipmentSlot: 3
+  femaleArmorPrefab: {fileID: 2806187934158342157, guid: c755dc187ffed9347a4bbd9b3474fbd1, type: 3}
+  maleArmorPrefab: {fileID: 7551062208321781466, guid: f5281e2677a8f104facf37eb878ceb30, type: 3}
+  armorType: 3
+  ColorType: 0
+  ColorVariations: []

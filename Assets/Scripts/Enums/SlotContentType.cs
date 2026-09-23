@@ -1,0 +1,1 @@
+public enum SlotContentType { Inventory, Equipment, ActionBar, SpellBook, VendorBuy, PlayerSell }

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e79a2433cef7a7458ba19d7bd0420cf, type: 3}
+  m_Name: 2_priest_umbral_strike
+  m_EditorClassIdentifier: Assembly-CSharp::Ability
+  ID: priest_umbral_strike
+  abilityType: 0
+  intent: 0
+  targetType: 1
+  priority: 0
+  resourceCost: 17
+  cooldownTime: 1.5
+  range: 5
+  requiresTarget: 1
+  weaponRequirement: 0
+  AoeRadius: 0
+  effects:
+  - {fileID: 11400000, guid: 4ba3a28900003004caefccfe10b71a39, type: 2}
+  castTime: 0
+  canMoveWhileCasting: 0
+  projectileSpeed: 0
+  abilityName: Golpe Umbrio
+  description: Desfere um golpe corpo a corpo infundido com energia das sombras.
+  icon: {fileID: 21300000, guid: 2bb02b871b3de264084da35529482ade, type: 3}
+  combatStyleForAnimation: 3
+  visualDamageType: 6
+  soundEffect: {fileID: 8300000, guid: f4cf2cdbd7113fe4a9634e61125a4e60, type: 3}
+  animationClip: {fileID: -7717634560727564301, guid: 9f773338b2a96174ebe9b63870034ca3, type: 3}
+  soundEffectCast: {fileID: 0}
+  animationClipCast: {fileID: 0}
+  hitEffectPrefab: {fileID: 8587560481101609250, guid: 2204f06b178af014986bf95a7bda8e6e, type: 3}
+  spawnLocation: 0
+  effectSpawnOffset: {x: 0, y: 1, z: 0}
+  shouldFollowTarget: 0
+  rotateToSurfaceNormal: 0
+  alignToMovementDirection: 0
+  effectDuration: 2
+  casterEffectPrefab: {fileID: 0}
+  casterEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  projectilePrefab: {fileID: 0}

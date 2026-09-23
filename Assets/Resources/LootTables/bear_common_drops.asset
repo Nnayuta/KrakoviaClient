@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e7de09a8bd92479bb0af862a6bc16, type: 3}
+  m_Name: bear_common_drops
+  m_EditorClassIdentifier: Assembly-CSharp::LootTable
+  lootTableID: bear_common_drops
+  Pools:
+  - PoolName: 'Pool (Chance: 100%)'
+    Chance: 1
+    Rolls: 1
+    MinQuality: 0
+    Entries:
+    - Item: {fileID: 11400000, guid: 3ad6c72af9728354b8f50446caa5eada, type: 2}
+      Weight: 70
+      MinQuantity: 1
+      MaxQuantity: 3
+    - Item: {fileID: 11400000, guid: 646ad03ee58f15b47a4152b71eb11964, type: 2}
+      Weight: 100
+      MinQuantity: 1
+      MaxQuantity: 2
+    - Item: {fileID: 11400000, guid: 15b23efcb6d218046abea19991bb6e1b, type: 2}
+      Weight: 50
+      MinQuantity: 1
+      MaxQuantity: 2

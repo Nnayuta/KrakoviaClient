@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e7de09a8bd92479bb0af862a6bc16, type: 3}
+  m_Name: bandids_15-20
+  m_EditorClassIdentifier: Assembly-CSharp::LootTable
+  lootTableID: bandids_15_20
+  Pools:
+  - PoolName: 'Pool (Chance: 100%)'
+    Chance: 1
+    Rolls: 1
+    MinQuality: 0
+    Entries:
+    - Item: {fileID: 11400000, guid: ac8ce6cc7483c0942b4818d86230a1e4, type: 2}
+      Weight: 1
+      MinQuantity: 5
+      MaxQuantity: 20
+    - Item: {fileID: 11400000, guid: 7d090373b4e400d428f588987cf771d5, type: 2}
+      Weight: 1
+      MinQuantity: 5
+      MaxQuantity: 20
+  - PoolName: 'Pool (Chance: 30%)'
+    Chance: 0.3
+    Rolls: 1
+    MinQuality: 1
+    Entries:
+    - Item: {fileID: 11400000, guid: 6f4a160c99dedf941b5b727bb0d7e0d2, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 522a2adb385e7f743814f6a3ff725eb3, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: f18c7bcf51c02464eb6d589c0f4f2106, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: e53fcb484dfbb86419c5e8f228da13a5, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: f994b525f9c6c084f98b88047975f43f, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 5728a2af5c29aff49a349815380a59e8, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 381840792d734be409e8532119b35878, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 78212d9de1b1a514cba4bf2a388b225f, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 682851835f35b014ab46b21f5e0282aa, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 41bd27806da8d2e49a7ce5037b04de64, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: e1a55bccc574dbc48bbfb2d1ddc743a8, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 936469455b7991f458da71f8389baf36, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1

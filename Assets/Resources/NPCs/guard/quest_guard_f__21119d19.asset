@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: quest_guard_f__21119d19
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: 21119d19
+  displayName: Guarda da Vila
+  npcPrefab: {fileID: 8718927698127290429, guid: f65df52f8e5760f47a00817b3b865dbf, type: 3}
+  nameplateYOffset: -2
+  genderSetting: 0
+  DefaultEquipment:
+  - {fileID: 11400000, guid: a3fd0d045ed6af94ca53197fd19389eb, type: 2}
+  - {fileID: 11400000, guid: b8a9ca0cb6986c04cbdf5f76d5c0901a, type: 2}
+  - {fileID: 11400000, guid: 40e5e054519b97b419c301c33dd2240f, type: 2}
+  - {fileID: 11400000, guid: d427fd1603c60f749afc0dec028cfb70, type: 2}
+  - {fileID: 11400000, guid: 3268309dff17661448ce001005e5b11d, type: 2}
+  faction: 2
+  isVendor: 0
+  aggroRange: 15
+  leashRange: 30
+  respawnTimeSeconds: 60
+  level: 20
+  archetype: 3
+  isBoss: 0
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 68
+  - Stat: 0
+    Value: 68
+  - Stat: 1
+    Value: 68
+  - Stat: 2
+    Value: 68
+  - Stat: 4
+    Value: 172
+  swingTimer: 4
+  autoAttackAbility: {fileID: 0}
+  abilities:
+  - {fileID: 0}
+  experienceReward: 10
+  currencyReward: 130
+  lootTable: {fileID: 0}
+  AvailableQuests:
+  - {fileID: 11400000, guid: ca9d988f6590db146bef62352e2b790f, type: 2}
+  DefaultDialogue: "Sauda\xE7\xF5es, Krakoviano. Sou respons\xE1vel por manter a
+    vila segura. Se precisar de orienta\xE7\xE3o ou trabalho, fale comigo."

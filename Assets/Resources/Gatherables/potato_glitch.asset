@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7618182bed315854f8868e9b09e9d054, type: 3}
+  m_Name: potato_glitch
+  m_EditorClassIdentifier: Assembly-CSharp::GatherableData
+  gatherableId: potato_glitch
+  displayName: Batata da Fenda
+  prefab: {fileID: 3575428152624000961, guid: 40a19664feea8334db2619ea861570be, type: 3}
+  gatherTimeSeconds: 3
+  respawnTimeSeconds: 120
+  lootTableID: quest_raiz_problema_collect

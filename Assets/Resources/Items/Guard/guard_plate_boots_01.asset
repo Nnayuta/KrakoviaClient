@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: guard_plate_boots_01
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: guard_plate_boots_01
+  itemName: Botas de Guarda
+  icon: {fileID: 21300000, guid: 57e55d9ab75fec140a903522d5acf84e, type: 3}
+  quality: 1
+  maxStackSize: 1
+  sellPrice: 49
+  requiredLevel: 1
+  itemLevel: 20
+  autoGenerateStats: 1
+  primaryStatFocus: 0
+  Stats:
+  - Stat: 4
+    Value: 1218
+  - Stat: 3
+    Value: 4
+  - Stat: 7
+    Value: 2
+  - Stat: 0
+    Value: 2
+  equipmentSlot: 5
+  femaleArmorPrefab: {fileID: 4951428493406186132, guid: b9100aa189d87db49afdd4bcedc14dd3, type: 3}
+  maleArmorPrefab: {fileID: 7134141396385524411, guid: 4c499b6e6770c594d8a220316f6fbbea, type: 3}
+  armorType: 3
+  ColorType: 3
+  ColorVariations: []

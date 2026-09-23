@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e79a2433cef7a7458ba19d7bd0420cf, type: 3}
+  m_Name: 4_warrior_passive_armor
+  m_EditorClassIdentifier: Assembly-CSharp::Ability
+  ID: warrior_passive_armor
+  abilityType: 1
+  intent: 1
+  targetType: 0
+  priority: 0
+  resourceCost: 0
+  cooldownTime: 0
+  range: 0
+  requiresTarget: 0
+  weaponRequirement: 0
+  AoeRadius: 0
+  effects: []
+  castTime: 0
+  canMoveWhileCasting: 0
+  projectileSpeed: 0
+  abilityName: "Especializa\xE7\xE3o em Armadura"
+  description: "Sua per\xEDcia com armaduras aumenta sua Armadura total em 10%."
+  icon: {fileID: 21300000, guid: 4b5c3887b0bad8548a4414947f05a7ba, type: 3}
+  combatStyleForAnimation: 1
+  visualDamageType: 0
+  soundEffect: {fileID: 0}
+  animationClip: {fileID: 0}
+  soundEffectCast: {fileID: 0}
+  animationClipCast: {fileID: 0}
+  hitEffectPrefab: {fileID: 0}
+  spawnLocation: 1
+  effectSpawnOffset: {x: 0, y: 0, z: 0}
+  shouldFollowTarget: 1
+  rotateToSurfaceNormal: 0
+  alignToMovementDirection: 1
+  effectDuration: 2
+  casterEffectPrefab: {fileID: 0}
+  casterEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  projectilePrefab: {fileID: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: npc_Seu_Armando_Martelada
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: npc_Seu_Armando_Martelada
+  displayName: Seu Armando Martelada
+  npcPrefab: {fileID: 8718927698127290429, guid: f65df52f8e5760f47a00817b3b865dbf, type: 3}
+  nameplateYOffset: 2
+  genderSetting: 1
+  DefaultEquipment:
+  - {fileID: 11400000, guid: a3fd0d045ed6af94ca53197fd19389eb, type: 2}
+  - {fileID: 11400000, guid: 2efcc343f2bffbe4c9f1b1b1c9085521, type: 2}
+  - {fileID: 11400000, guid: d427fd1603c60f749afc0dec028cfb70, type: 2}
+  - {fileID: 11400000, guid: db84f9f682c373247b32e61436526e1f, type: 2}
+  faction: 2
+  isVendor: 1
+  aggroRange: 15
+  leashRange: 30
+  respawnTimeSeconds: 60
+  level: 10
+  archetype: 3
+  isBoss: 0
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 22
+  - Stat: 0
+    Value: 22
+  - Stat: 1
+    Value: 22
+  - Stat: 2
+    Value: 22
+  - Stat: 4
+    Value: 55
+  swingTimer: 2
+  autoAttackAbility: {fileID: 0}
+  abilities: []
+  experienceReward: 10
+  currencyReward: 67
+  lootTable: {fileID: 0}
+  AvailableQuests: []
+  DefaultDialogue: "Quer espada boa? Eu fa\xE7o. Quer espada bonita? Vai falar com
+    a Jaque, que eu n\xE3o perco tempo com frescura."

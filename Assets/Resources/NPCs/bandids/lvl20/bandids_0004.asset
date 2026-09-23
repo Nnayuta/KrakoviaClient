@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: bandids_0004
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: bandids_0004
+  displayName: Bandido
+  npcPrefab: {fileID: 8718927698127290429, guid: f65df52f8e5760f47a00817b3b865dbf, type: 3}
+  nameplateYOffset: -2
+  genderSetting: 0
+  DefaultEquipment:
+  - {fileID: 11400000, guid: 6f4a160c99dedf941b5b727bb0d7e0d2, type: 2}
+  - {fileID: 11400000, guid: 522a2adb385e7f743814f6a3ff725eb3, type: 2}
+  - {fileID: 11400000, guid: f18c7bcf51c02464eb6d589c0f4f2106, type: 2}
+  - {fileID: 11400000, guid: e53fcb484dfbb86419c5e8f228da13a5, type: 2}
+  - {fileID: 11400000, guid: f994b525f9c6c084f98b88047975f43f, type: 2}
+  - {fileID: 11400000, guid: 5728a2af5c29aff49a349815380a59e8, type: 2}
+  - {fileID: 11400000, guid: 034cfadbbe9393c418bc9065a81bc640, type: 2}
+  faction: 0
+  isVendor: 0
+  aggroRange: 10
+  leashRange: 20
+  respawnTimeSeconds: 30
+  level: 20
+  archetype: 3
+  isBoss: 0
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 68
+  - Stat: 0
+    Value: 68
+  - Stat: 1
+    Value: 68
+  - Stat: 2
+    Value: 68
+  - Stat: 4
+    Value: 172
+  swingTimer: 4
+  autoAttackAbility: {fileID: 11400000, guid: e6d9f7afcee19354baf9882dfff4fd47, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: 24dc09267cc8f0740a998665f5c61895, type: 2}
+  - {fileID: 11400000, guid: 24dc09267cc8f0740a998665f5c61895, type: 2}
+  - {fileID: 11400000, guid: c8d81a3a4ccf6904b8061f529ae7bef1, type: 2}
+  experienceReward: 10
+  currencyReward: 174
+  lootTable: {fileID: 11400000, guid: 85ffd95db353908408fe459ff50d1a8c, type: 2}
+  AvailableQuests: []
+  DefaultDialogue: 

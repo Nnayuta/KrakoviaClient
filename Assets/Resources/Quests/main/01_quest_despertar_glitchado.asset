@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b84de2063e76b341981bb714e245e35, type: 3}
+  m_Name: 01_quest_despertar_glitchado
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  QuestID: 01_quest_despertar_glitchado
+  Category: 0
+  QuestName: O Despertar Glitchado
+  Description: "U\xE9, de onde voc\xEA surgiu? Apareceu a\xED do nada, todo... 'desrenderizado'.
+    Parecia um bug de personagem! Meu nome \xE9 Valdisnei. J\xE1 que voc\xEA \xE9
+    novo por aqui e parece t\xE3o perdido quanto eu quando a internet cai, que tal
+    me ajudar a entender as bizarrices que andam acontecendo em Vila Batatosa?"
+  OnAcceptDialogue: "Fale com aquele senhor simp\xE1tico que parece t\xE3o confuso
+    quanto um manual de instru\xE7\xF5es em Aramaico. Ele se apresentou como Valdisnei
+    e parece ser o ponto de partida para entender o que diabos est\xE1 acontecendo
+    neste lugar."
+  OnInProgressDialogue: "Valdisnei est\xE1 esperando para conversar. Ele parece ter
+    umas trezentas abas abertas na cabe\xE7a, mas uma delas \xE9 sobre voc\xEA. \xC9
+    s\xF3 falar com ele novamente."
+  OnCompleteDialogue: "Ah, voltou! Ou voc\xEA nunca saiu? \xC0s vezes a minha mem\xF3ria
+    RAM falha. \xD3timo! Se voc\xEA n\xE3o \xE9 s\xF3 uma alucina\xE7\xE3o digital,
+    talvez possa me dar uma m\xE3ozinha com... bem, com tudo isso."
+  RequiredLevel: 1
+  PrerequisiteQuests: []
+  QuestGiver: {fileID: 11400000, guid: 23b4dfd77dac7f6479eb18a8d9719304, type: 2}
+  QuestCompleter: {fileID: 11400000, guid: 23b4dfd77dac7f6479eb18a8d9719304, type: 2}
+  Objectives: []
+  GuaranteedRewards: []
+  ChooseOneRewards: []

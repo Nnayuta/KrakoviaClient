@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: cloth_template_hands_end
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: cloth_template_hands_end
+  itemName: Luvas de Placa
+  icon: {fileID: 21300000, guid: fb9a6c5e5a37b4048a6b32af16a15496, type: 3}
+  quality: 1
+  maxStackSize: 1
+  sellPrice: 18
+  requiredLevel: 1
+  itemLevel: 1
+  autoGenerateStats: 0
+  primaryStatFocus: 2
+  Stats: []
+  equipmentSlot: 6
+  femaleArmorPrefab: {fileID: 5611829331620010571, guid: 6c707ebfc2971b640b99a855617073c3, type: 3}
+  maleArmorPrefab: {fileID: 7369303009414995789, guid: 9a2e80b0b124a7e4eb385ada60e70c0f, type: 3}
+  armorType: 0
+  ColorType: 0
+  ColorVariations: []

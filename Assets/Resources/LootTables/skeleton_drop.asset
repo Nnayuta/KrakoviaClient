@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e7de09a8bd92479bb0af862a6bc16, type: 3}
+  m_Name: skeleton_drop
+  m_EditorClassIdentifier: Assembly-CSharp::LootTable
+  lootTableID: skeleton_drop
+  Pools:
+  - PoolName: 'Pool (Chance: 100%)'
+    Chance: 1
+    Rolls: 1
+    MinQuality: 0
+    Entries:
+    - Item: {fileID: 11400000, guid: e6b6fc71b693c5842a9b2157ba052327, type: 2}
+      Weight: 70
+      MinQuantity: 1
+      MaxQuantity: 2
+    - Item: {fileID: 11400000, guid: fc3c1472b42fa724093307942838c13a, type: 2}
+      Weight: 100
+      MinQuantity: 1
+      MaxQuantity: 3
+  - PoolName: 'Pool (Chance: 15%)'
+    Chance: 0.15
+    Rolls: 1
+    MinQuality: 0
+    Entries:
+    - Item: {fileID: 11400000, guid: 023bead12af1c584f993bc8fd5dcc55f, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: b4d834c41fac39c4fbdb8a6f77706c51, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1

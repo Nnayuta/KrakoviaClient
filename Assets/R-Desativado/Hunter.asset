@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69582f7ecca2a9e40ba76bb0bbec2c6b, type: 3}
+  m_Name: Hunter
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerClass
+  classID: hunter
+  className: Hunter
+  icon: {fileID: 21300000, guid: 8d95bcf261f259f4786a397bc66e3705, type: 3}
+  classDescription: 
+  PrimaryStat: 1
+  weaponProficiencies: 0a000000
+  baseHealth: 100
+  baseResource: 100
+  resourceName: Focus
+  baseStrength: 9
+  baseAgility: 17
+  baseIntelligence: 7
+  baseStamina: 10
+  healthGrowth: 2
+  resourceGrowth: 0
+  strengthGrowth: 1
+  agilityGrowth: 3
+  intelligenceGrowth: 1
+  staminaGrowth: 2
+  baseClassAbilities:
+  - ability: {fileID: 11400000, guid: 4fd33392fe6c88d4592d2da85edb3799, type: 2}
+    levelRequired: 1
+  specializations: []
+  startingEquipment:
+  - {fileID: 11400000, guid: 3268309dff17661448ce001005e5b11d, type: 2}
+  - {fileID: 11400000, guid: 98039c2d0ab1a234dbdf0e1c9349129a, type: 2}
+  - {fileID: 11400000, guid: 6bf29ff48373912429206f50977bc90d, type: 2}
+  - {fileID: 11400000, guid: 29e4e23f2a18e9e44a6c8fa741fc65b3, type: 2}
+  - {fileID: 11400000, guid: 69dd1d6cbc288d14fab3795915b6761d, type: 2}
+  startingInventoryItems: []

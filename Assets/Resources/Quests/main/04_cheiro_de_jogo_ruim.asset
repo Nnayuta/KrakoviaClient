@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b84de2063e76b341981bb714e245e35, type: 3}
+  m_Name: 04_cheiro_de_jogo_ruim
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  QuestID: 04_cheiro_de_jogo_ruim
+  Category: 0
+  QuestName: 'Um Cheiro de Jogo Ruim '
+  Description: "Tem algo errado. Os lobos da floresta geralmente ficam na deles,
+    mas tem um cheiro estranho vindo de l\xE1... um cheiro de... coisa velha, mofada,
+    de jogo mal-acabado. Os animais ficam agitados com isso. V\xE1 at\xE9 a entrada
+    da floresta e veja se encontra algo suspeito. N\xE3o precisa brigar, s\xF3 olhar!"
+  OnAcceptDialogue: "Dona Cleide est\xE1 preocupada com um cheiro estranho vindo
+    da floresta, algo que ela descreveu como 'jogo mal-acabado'. Ela me pediu para
+    ir at\xE9 a entrada da floresta e ver o que est\xE1 causando esse alvoro\xE7o
+    nos animais. Apenas uma miss\xE3o de reconhecimento, sem combate... por enquanto."
+  OnInProgressDialogue: "A entrada da floresta n\xE3o fica longe. Procure por uma
+    \xE1rea onde as \xE1rvores come\xE7am a parecer... suspeitamente repetidas, como
+    se tivessem usado 'Ctrl+C, Ctrl+V'."
+  OnCompleteDialogue: "Lobos agindo estranho? Com texturas bugadas, voc\xEA diz?
+    Hmmm, isso parece um caso cl\xE1ssico de corrup\xE7\xE3o de arquivos. Cleide
+    estava certa em se preocupar. Isso n\xE3o vai se resolver sozinho."
+  RequiredLevel: 1
+  PrerequisiteQuests:
+  - {fileID: 11400000, guid: 75246279a1279b144969380db1131509, type: 2}
+  QuestGiver: {fileID: 11400000, guid: 71cb35793b4959f4eb5cd856bd6f304e, type: 2}
+  QuestCompleter: {fileID: 11400000, guid: 71cb35793b4959f4eb5cd856bd6f304e, type: 2}
+  Objectives:
+  - Type: 2
+    Description: 
+    TargetID: npc_Dona_Cleide
+    RequiredAmount: 0
+  GuaranteedRewards: []
+  ChooseOneRewards: []

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e79a2433cef7a7458ba19d7bd0420cf, type: 3}
+  m_Name: 1_warrior_autoattack
+  m_EditorClassIdentifier: Assembly-CSharp::Ability
+  ID: 0_warrior_autoattack
+  abilityType: 0
+  intent: 0
+  targetType: 1
+  priority: 0
+  resourceCost: 0
+  cooldownTime: 1
+  range: 5
+  requiresTarget: 1
+  weaponRequirement: 2
+  AoeRadius: 0
+  effects:
+  - {fileID: 11400000, guid: f8dfee6ce55b7da44b0e582837c24052, type: 2}
+  - {fileID: 11400000, guid: 88f71a272b39fdf47a84006d557c99c1, type: 2}
+  castTime: 0
+  canMoveWhileCasting: 0
+  projectileSpeed: 0
+  abilityName: Ataque Basico
+  description: 
+  icon: {fileID: 21300000, guid: c890dd06d4a350946ab11e4778bf47d8, type: 3}
+  combatStyleForAnimation: 1
+  visualDamageType: 0
+  soundEffect: {fileID: 8300000, guid: cb284d9908517fc4393f81d72829585b, type: 3}
+  animationClip: {fileID: -7717634560727564301, guid: 9f773338b2a96174ebe9b63870034ca3, type: 3}
+  soundEffectCast: {fileID: 0}
+  animationClipCast: {fileID: 0}
+  hitEffectPrefab: {fileID: 5503505460791601945, guid: 74c549d1b06b6b140a1fd9536eea637f, type: 3}
+  spawnLocation: 1
+  effectSpawnOffset: {x: 0, y: 1, z: 0}
+  shouldFollowTarget: 1
+  rotateToSurfaceNormal: 0
+  alignToMovementDirection: 1
+  effectDuration: 2
+  casterEffectPrefab: {fileID: 0}
+  casterEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  projectilePrefab: {fileID: 0}

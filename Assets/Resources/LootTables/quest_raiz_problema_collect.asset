@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e7de09a8bd92479bb0af862a6bc16, type: 3}
+  m_Name: quest_raiz_problema_collect
+  m_EditorClassIdentifier: 
+  lootTableID: quest_raiz_problema_collect
+  Pools:
+  - PoolName: 'Pool (Chance: 100%)'
+    Chance: 1
+    Rolls: 1
+    MinQuality: 0
+    Entries:
+    - Item: {fileID: 11400000, guid: 157d948b278d30b4e9b8d5a335cac0b4, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: elite_skeleton_f0f73cb7_15
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: elite_skeleton_f0f73cb7_15
+  displayName: '[ELITE] Esqueleto'
+  npcPrefab: {fileID: 1264433200921298619, guid: b91f2cacb0bef7f4bac8f61b0f00b4c6, type: 3}
+  nameplateYOffset: 2
+  genderSetting: 1
+  DefaultEquipment:
+  - {fileID: 11400000, guid: 6adede9f6798da04a9c4a2d6b1eca073, type: 2}
+  faction: 0
+  isVendor: 0
+  aggroRange: 15
+  leashRange: 30
+  respawnTimeSeconds: 60
+  level: 15
+  archetype: 3
+  isBoss: 1
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 136
+  - Stat: 0
+    Value: 46
+  - Stat: 1
+    Value: 46
+  - Stat: 2
+    Value: 46
+  - Stat: 4
+    Value: 97
+  swingTimer: 2
+  autoAttackAbility: {fileID: 11400000, guid: e6d9f7afcee19354baf9882dfff4fd47, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: c8d81a3a4ccf6904b8061f529ae7bef1, type: 2}
+  experienceReward: 10
+  currencyReward: 1410
+  lootTable: {fileID: 11400000, guid: 80cecc0e323beef429a30cbbce6aa540, type: 2}
+  AvailableQuests: []
+  DefaultDialogue: 

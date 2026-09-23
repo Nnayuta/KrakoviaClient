@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e7de09a8bd92479bb0af862a6bc16, type: 3}
+  m_Name: bandids_0002
+  m_EditorClassIdentifier: Assembly-CSharp::LootTable
+  lootTableID: bandids_0002
+  Pools:
+  - PoolName: 'Pool (Chance: 100%)'
+    Chance: 1
+    Rolls: 1
+    MinQuality: 0
+    Entries:
+    - Item: {fileID: 11400000, guid: ac8ce6cc7483c0942b4818d86230a1e4, type: 2}
+      Weight: 100
+      MinQuantity: 2
+      MaxQuantity: 8
+    - Item: {fileID: 11400000, guid: 5facd8c19b8117b4c974868c720f04a5, type: 2}
+      Weight: 70
+      MinQuantity: 1
+      MaxQuantity: 3
+  - PoolName: 'Pool (Chance: 25%)'
+    Chance: 0.25
+    Rolls: 1
+    MinQuality: 0
+    Entries:
+    - Item: {fileID: 11400000, guid: 023bead12af1c584f993bc8fd5dcc55f, type: 2}
+      Weight: 3
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 034cfadbbe9393c418bc9065a81bc640, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1
+    - Item: {fileID: 11400000, guid: 442f8750a1b79c44cb335aa04105eda9, type: 2}
+      Weight: 1
+      MinQuantity: 1
+      MaxQuantity: 1

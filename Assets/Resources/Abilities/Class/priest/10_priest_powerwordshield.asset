@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e79a2433cef7a7458ba19d7bd0420cf, type: 3}
+  m_Name: 10_priest_powerwordshield
+  m_EditorClassIdentifier: Assembly-CSharp::Ability
+  ID: priest_powerwordshield
+  abilityType: 0
+  intent: 1
+  targetType: 1
+  priority: 0
+  resourceCost: 20
+  cooldownTime: 8
+  range: 40
+  requiresTarget: 1
+  weaponRequirement: 0
+  AoeRadius: 0
+  effects:
+  - {fileID: 11400000, guid: e2e7e1851793618448f72793f76f4538, type: 2}
+  castTime: 0
+  canMoveWhileCasting: 0
+  projectileSpeed: 0
+  abilityName: Palavra de Escudo
+  description: Protege um aliado com um escudo que aumenta a armadura do alvo por
+    15 segundos.
+  icon: {fileID: 21300000, guid: fe77b778dcbf2344aa21fa65347166c9, type: 3}
+  combatStyleForAnimation: 3
+  visualDamageType: 5
+  soundEffect: {fileID: 0}
+  animationClip: {fileID: 0}
+  soundEffectCast: {fileID: 0}
+  animationClipCast: {fileID: 0}
+  hitEffectPrefab: {fileID: 1289543790355709915, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+  spawnLocation: 0
+  effectSpawnOffset: {x: 0, y: 0, z: 0}
+  shouldFollowTarget: 1
+  rotateToSurfaceNormal: 0
+  alignToMovementDirection: 0
+  effectDuration: 2
+  casterEffectPrefab: {fileID: 0}
+  casterEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  projectilePrefab: {fileID: 0}

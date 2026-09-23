@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: citizen_lower_skirt
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: citizen_lower_skirt
+  itemName: citizen_lower_skirt
+  icon: {fileID: 21300000, guid: b48623623521c5646bbaa5c1cf553be1, type: 3}
+  quality: 0
+  maxStackSize: 1
+  sellPrice: 17
+  requiredLevel: 1
+  itemLevel: 1
+  autoGenerateStats: 1
+  primaryStatFocus: 0
+  Stats:
+  - Stat: 4
+    Value: 8
+  - Stat: 3
+    Value: 2
+  - Stat: 0
+    Value: 3
+  equipmentSlot: 4
+  femaleArmorPrefab: {fileID: 5543641397935355937, guid: bc501454a3f6a4742b50b06519a29674, type: 3}
+  maleArmorPrefab: {fileID: 0}
+  armorType: 0
+  ColorType: 0
+  ColorVariations: []

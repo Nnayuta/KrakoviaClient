@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: mage_bandids_0001
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: mage_bandids_0001
+  displayName: Mago Bandido
+  npcPrefab: {fileID: 8718927698127290429, guid: f65df52f8e5760f47a00817b3b865dbf, type: 3}
+  nameplateYOffset: -2
+  genderSetting: 0
+  DefaultEquipment:
+  - {fileID: 11400000, guid: 26dd4d4c44b8dcc4e850bb1b3dae11af, type: 2}
+  - {fileID: 11400000, guid: b01d3961b6ec3bc498925b76f6b04144, type: 2}
+  - {fileID: 11400000, guid: 4ef19817d47da5340890363f8d6c99ca, type: 2}
+  - {fileID: 11400000, guid: 77fc6b1ce3759c742a19c8d9e98b6cfb, type: 2}
+  - {fileID: 11400000, guid: 4c429e05d50690340a1cce7a14cb83f5, type: 2}
+  - {fileID: 11400000, guid: b4d834c41fac39c4fbdb8a6f77706c51, type: 2}
+  faction: 0
+  isVendor: 0
+  aggroRange: 10
+  leashRange: 20
+  respawnTimeSeconds: 30
+  level: 5
+  archetype: 2
+  isBoss: 0
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 8
+  - Stat: 0
+    Value: 7
+  - Stat: 1
+    Value: 15
+  - Stat: 2
+    Value: 17
+  - Stat: 4
+    Value: 18
+  swingTimer: 3
+  autoAttackAbility: {fileID: 0}
+  abilities:
+  - {fileID: 0}
+  - {fileID: 0}
+  experienceReward: 10
+  currencyReward: 23
+  lootTable: {fileID: 0}
+  AvailableQuests: []
+  DefaultDialogue: 

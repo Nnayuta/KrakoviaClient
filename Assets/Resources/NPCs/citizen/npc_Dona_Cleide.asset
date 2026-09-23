@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: npc_Dona_Cleide
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: npc_Dona_Cleide
+  displayName: Dona Cleide
+  npcPrefab: {fileID: 3034758309187490702, guid: 116b7f3295d462647b043b64b15c960b, type: 3}
+  nameplateYOffset: 2
+  genderSetting: 2
+  DefaultEquipment:
+  - {fileID: 11400000, guid: ab85f995ed5dec04abed1c67674dce6c, type: 2}
+  - {fileID: 11400000, guid: 47be42ea2b43f794c8125daa1285778a, type: 2}
+  faction: 2
+  isVendor: 1
+  aggroRange: 15
+  leashRange: 30
+  respawnTimeSeconds: 60
+  level: 4
+  archetype: 3
+  isBoss: 0
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 11
+  - Stat: 0
+    Value: 11
+  - Stat: 1
+    Value: 11
+  - Stat: 2
+    Value: 11
+  - Stat: 4
+    Value: 28
+  swingTimer: 2
+  autoAttackAbility: {fileID: 0}
+  abilities: []
+  experienceReward: 0
+  currencyReward: 15
+  lootTable: {fileID: 0}
+  AvailableQuests:
+  - {fileID: 11400000, guid: e5b6f897de33a56419538597588dafd8, type: 2}
+  - {fileID: 11400000, guid: a49e9cf76619aab4f9812d02c6b5221d, type: 2}
+  DefaultDialogue: "Toma esse ch\xE1, meu bem. \xC9 bom pra febre, pra dor e pra
+    espantar visita indesejada."

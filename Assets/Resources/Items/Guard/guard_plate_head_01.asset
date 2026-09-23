@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: guard_plate_head_01
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: guard_plate_head_01
+  itemName: Capacete de Guarda
+  icon: {fileID: 21300000, guid: eddb0f61210d2f4429ae92bc08d1b3ba, type: 3}
+  quality: 1
+  maxStackSize: 1
+  sellPrice: 67
+  requiredLevel: 1
+  itemLevel: 20
+  autoGenerateStats: 1
+  primaryStatFocus: 0
+  Stats:
+  - Stat: 4
+    Value: 1624
+  - Stat: 3
+    Value: 6
+  - Stat: 6
+    Value: 2
+  - Stat: 0
+    Value: 3
+  - Stat: 10
+    Value: 1
+  equipmentSlot: 2
+  femaleArmorPrefab: {fileID: 8082523460254369076, guid: e8e41ab9eb069a3418e6a1cd13465fff, type: 3}
+  maleArmorPrefab: {fileID: 1494461806319584545, guid: 2f563e5cb5f70904492fb219cfb82854, type: 3}
+  armorType: 3
+  ColorType: 3
+  ColorVariations: []

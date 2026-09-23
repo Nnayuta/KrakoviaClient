@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: guard_plate_hands_01
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: guard_plate_hands_01
+  itemName: Luvas de Guarda
+  icon: {fileID: 21300000, guid: 525004654fa91bc46afa229e16ebf2e1, type: 3}
+  quality: 1
+  maxStackSize: 1
+  sellPrice: 49
+  requiredLevel: 1
+  itemLevel: 20
+  autoGenerateStats: 1
+  primaryStatFocus: 0
+  Stats:
+  - Stat: 4
+    Value: 1218
+  - Stat: 3
+    Value: 4
+  - Stat: 6
+    Value: 2
+  - Stat: 0
+    Value: 2
+  equipmentSlot: 6
+  femaleArmorPrefab: {fileID: 1264739340011507633, guid: b1225e6c0defe9b429f977855d40ec1a, type: 3}
+  maleArmorPrefab: {fileID: 4903326069026651234, guid: e2c700b8dce251746bc99162b9703131, type: 3}
+  armorType: 3
+  ColorType: 3
+  ColorVariations: []

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e79a2433cef7a7458ba19d7bd0420cf, type: 3}
+  m_Name: 2_warrior_herostrike
+  m_EditorClassIdentifier: Assembly-CSharp::Ability
+  ID: warrior_herostrike
+  abilityType: 0
+  intent: 0
+  targetType: 1
+  priority: 0
+  resourceCost: 10
+  cooldownTime: 3
+  range: 5
+  requiresTarget: 1
+  weaponRequirement: 2
+  AoeRadius: 5
+  effects:
+  - {fileID: 11400000, guid: ff471de4d4c870b4190714c4542e9009, type: 2}
+  castTime: 0
+  canMoveWhileCasting: 0
+  projectileSpeed: 0
+  abilityName: Golpe Heroico
+  description: "Um ataque poderoso que causa dano f\xEDsico adicional no pr\xF3ximo
+    ataque corpo a corpo."
+  icon: {fileID: 21300000, guid: 4b5c3887b0bad8548a4414947f05a7ba, type: 3}
+  combatStyleForAnimation: 1
+  visualDamageType: 0
+  soundEffect: {fileID: 8300000, guid: fd38b10a474098246bebcafade79a6ca, type: 3}
+  animationClip: {fileID: -7717634560727564301, guid: 9f773338b2a96174ebe9b63870034ca3, type: 3}
+  soundEffectCast: {fileID: 0}
+  animationClipCast: {fileID: 0}
+  hitEffectPrefab: {fileID: 7611201976539897820, guid: 39706049c667f7d4bbca965b63cd3bec, type: 3}
+  spawnLocation: 0
+  effectSpawnOffset: {x: 0, y: 1, z: 0}
+  shouldFollowTarget: 0
+  rotateToSurfaceNormal: 0
+  alignToMovementDirection: 1
+  effectDuration: 2
+  casterEffectPrefab: {fileID: 0}
+  casterEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  projectilePrefab: {fileID: 0}

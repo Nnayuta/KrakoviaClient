@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e79a2433cef7a7458ba19d7bd0420cf, type: 3}
+  m_Name: 4_priest_flashheal
+  m_EditorClassIdentifier: Assembly-CSharp::Ability
+  ID: priest_flashheal
+  abilityType: 0
+  intent: 1
+  targetType: 1
+  priority: 0
+  resourceCost: 25
+  cooldownTime: 2
+  range: 40
+  requiresTarget: 1
+  weaponRequirement: 0
+  AoeRadius: 0
+  effects:
+  - {fileID: 11400000, guid: db413ce42cefca54582f98bc5460fbdd, type: 2}
+  castTime: 1.2
+  canMoveWhileCasting: 1
+  projectileSpeed: 0
+  abilityName: "Cura R\xE1pida"
+  description: Cura um alvo aliado rapidamente, mas com alto custo de mana.
+  icon: {fileID: 21300000, guid: 511b7df189d509e4bbb3271bf1df0df5, type: 3}
+  combatStyleForAnimation: 3
+  visualDamageType: 5
+  soundEffect: {fileID: 0}
+  animationClip: {fileID: 0}
+  soundEffectCast: {fileID: 0}
+  animationClipCast: {fileID: 0}
+  hitEffectPrefab: {fileID: 9017484664307500583, guid: 1245b8d2997d5b34fb1637be70a7eb05, type: 3}
+  spawnLocation: 0
+  effectSpawnOffset: {x: 0, y: 0, z: 0}
+  shouldFollowTarget: 0
+  rotateToSurfaceNormal: 0
+  alignToMovementDirection: 1
+  effectDuration: 2
+  casterEffectPrefab: {fileID: 0}
+  casterEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  projectilePrefab: {fileID: 0}

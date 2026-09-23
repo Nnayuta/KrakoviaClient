@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b84de2063e76b341981bb714e245e35, type: 3}
+  m_Name: 02_quest_raiz_problema
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  QuestID: 02_quest_raiz_problema
+  Category: 0
+  QuestName: A Raiz de Todo o Problema
+  Description: "Veja s\xF3, a principal dor de cabe\xE7a s\xE3o essas... batatas.
+    Elas simplesmente brotam do ch\xE3o. N\xE3o sei se colho pra fazer janta ou se
+    reporto como um bug para algum 'desenvolvedor' c\xF3smico. Traga umas cinco pra
+    mim, mas cuidado. \xC0s vezes elas t\xEAm uma f\xEDsica meio... quebrada."
+  OnAcceptDialogue: "Valdisnei, o 't\xE9cnico' n\xE3o-oficial de Vila Batatosa, pediu
+    para eu coletar 5 Batatas da Fenda. Ele mencionou que elas t\xEAm uma 'f\xEDsica
+    quebrada', ent\xE3o \xE9 melhor tomar cuidado para n\xE3o ser arremessado para
+    fora do mapa. As batatas podem ser encontradas nos arredores da vila."
+  OnInProgressDialogue: "Elas brilham com uma energia que grita 'erro de compila\xE7\xE3o'."
+  OnCompleteDialogue: "Olha s\xF3, voc\xEA conseguiu! E nem atravessou nenhuma parede
+    no processo, eu acho. \xD3timo trabalho! Mas agora... o que eu fa\xE7o com isso?
+    J\xE1 sei! Leve para algu\xE9m que entende de misturas inst\xE1veis: a Dona Cleide."
+  RequiredLevel: 1
+  PrerequisiteQuests:
+  - {fileID: 11400000, guid: 1055c2a6d75dd134986f151e2a732601, type: 2}
+  QuestGiver: {fileID: 11400000, guid: 23b4dfd77dac7f6479eb18a8d9719304, type: 2}
+  QuestCompleter: {fileID: 11400000, guid: 23b4dfd77dac7f6479eb18a8d9719304, type: 2}
+  Objectives:
+  - Type: 1
+    Description: '{current}/{required} Batatas da Fenda coletadas.'
+    TargetID: potato_glitch
+    RequiredAmount: 5
+  GuaranteedRewards:
+  - Type: 2
+    ItemID: 
+    Amount: 100
+    AbilityID: 
+  ChooseOneRewards: []

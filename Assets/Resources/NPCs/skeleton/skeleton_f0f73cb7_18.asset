@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fdf4e9bdd46e1438fecf3858f7311b, type: 3}
+  m_Name: skeleton_f0f73cb7_18
+  m_EditorClassIdentifier: Assembly-CSharp::NpcData
+  npcTypeId: skeleton_f0f73cb7_18
+  displayName: Esqueleto
+  npcPrefab: {fileID: 1264433200921298619, guid: b91f2cacb0bef7f4bac8f61b0f00b4c6, type: 3}
+  nameplateYOffset: 2
+  genderSetting: 1
+  DefaultEquipment:
+  - {fileID: 11400000, guid: c6423114a5adb5f4ea3927bf83bb8ab2, type: 2}
+  faction: 0
+  isVendor: 0
+  aggroRange: 15
+  leashRange: 30
+  respawnTimeSeconds: 60
+  level: 18
+  archetype: 3
+  isBoss: 0
+  isWorldBoss: 0
+  stats:
+  - Stat: 3
+    Value: 54
+  - Stat: 0
+    Value: 54
+  - Stat: 1
+    Value: 54
+  - Stat: 2
+    Value: 54
+  - Stat: 4
+    Value: 137
+  swingTimer: 2
+  autoAttackAbility: {fileID: 11400000, guid: e6d9f7afcee19354baf9882dfff4fd47, type: 2}
+  abilities: []
+  experienceReward: 27
+  currencyReward: 138
+  lootTable: {fileID: 11400000, guid: e8b77d7fe784453428b2665d489b4627, type: 2}
+  AvailableQuests: []
+  DefaultDialogue: 

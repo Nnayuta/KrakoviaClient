@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69582f7ecca2a9e40ba76bb0bbec2c6b, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerClass
+  classID: warrior
+  className: Guerreiro
+  icon: {fileID: 21300000, guid: c46d83f2b73aaa141bd5015819342d81, type: 3}
+  classDescription: "Forjado em batalha e movido pela disciplina, o Guerreiro \xE9
+    o pilar entre o caos e a ordem.\nTreinado no uso de qualquer arma e resistente
+    a qualquer dor, ele avan\xE7a onde outros recuam.\nSua for\xE7a n\xE3o vem de
+    magia, mas de pura determina\xE7\xE3o \u2014 e do som do a\xE7o que ecoa no campo
+    de guerra.\nQuer empunhe uma espada pesada, um machado brutal ou um escudo impenetr\xE1vel,
+    o Guerreiro se adapta a qualquer luta com poder e precis\xE3o."
+  PrimaryStat: 0
+  weaponProficiencies: 00000000010000000200000005000000
+  baseHealth: 120
+  baseResource: 100
+  resourceName: Rage
+  baseStrength: 15
+  baseAgility: 8
+  baseIntelligence: 5
+  baseStamina: 12
+  healthGrowth: 3
+  resourceGrowth: 0
+  strengthGrowth: 3
+  agilityGrowth: 1
+  intelligenceGrowth: 0
+  staminaGrowth: 3
+  baseClassAbilities:
+  - ability: {fileID: 11400000, guid: e6d9f7afcee19354baf9882dfff4fd47, type: 2}
+    levelRequired: 1
+  - ability: {fileID: 11400000, guid: 24dc09267cc8f0740a998665f5c61895, type: 2}
+    levelRequired: 1
+  - ability: {fileID: 11400000, guid: 846c8ec82968d0e4082687d1252cb728, type: 2}
+    levelRequired: 4
+  - ability: {fileID: 11400000, guid: c8d81a3a4ccf6904b8061f529ae7bef1, type: 2}
+    levelRequired: 6
+  - ability: {fileID: 11400000, guid: 247a2a397a7097748a36143a790c136b, type: 2}
+    levelRequired: 8
+  - ability: {fileID: 11400000, guid: f6d2edf3484b10c44bed857ee92c2e20, type: 2}
+    levelRequired: 10
+  - ability: {fileID: 11400000, guid: 848c5fa589cce6245a863b24c815999d, type: 2}
+    levelRequired: 12
+  - ability: {fileID: 11400000, guid: 01a7322611e2ba04fbdc4b83ba49fe19, type: 2}
+    levelRequired: 18
+  - ability: {fileID: 11400000, guid: bf964703f42872b439641193b520f329, type: 2}
+    levelRequired: 20
+  specializations: []
+  startingEquipment:
+  - {fileID: 11400000, guid: c6423114a5adb5f4ea3927bf83bb8ab2, type: 2}
+  - {fileID: 11400000, guid: 96a0b42f6866ba2429d8a6d03bcec9e9, type: 2}
+  - {fileID: 11400000, guid: 6fe75f1c8481b774eb5b1e2fd5ccd59a, type: 2}
+  - {fileID: 11400000, guid: 265ab79625435364a9ccf3db08640bb4, type: 2}
+  - {fileID: 11400000, guid: aec6aefb7b1013b49b348e50272a2baa, type: 2}
+  startingInventoryItems: []

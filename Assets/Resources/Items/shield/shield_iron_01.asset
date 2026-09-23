@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c497f6919cf5d418027dcc7fb307fc, type: 3}
+  m_Name: shield_iron_01
+  m_EditorClassIdentifier: Assembly-CSharp::ShieldItem
+  itemID: shield_iron_01
+  itemName: Escudo de Ferro Gasto
+  icon: {fileID: 21300000, guid: c67f6060700f79d4f842b3632c073ff9, type: 3}
+  quality: 0
+  maxStackSize: 1
+  sellPrice: 14
+  requiredLevel: 1
+  itemLevel: 1
+  autoGenerateStats: 1
+  primaryStatFocus: 0
+  Stats:
+  - Stat: 3
+    Value: 2
+  - Stat: 0
+    Value: 2
+  equipmentSlot: 1
+  shieldPrefab: {fileID: 106938356439800904, guid: 18f29e80816a3d143b43e9a148d39649, type: 3}

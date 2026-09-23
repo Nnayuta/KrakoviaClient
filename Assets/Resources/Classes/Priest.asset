@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69582f7ecca2a9e40ba76bb0bbec2c6b, type: 3}
+  m_Name: Priest
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerClass
+  classID: priest
+  className: Eclipsar
+  icon: {fileID: 21300000, guid: 4a59da33ae922924dbd2e6dae5f25353, type: 3}
+  classDescription: "Nem todo aquele que abra\xE7a a sombra \xE9 consumido por ela.\nOs
+    Eclipsares s\xE3o sacerdotes que encontraram poder ao aceitar tanto a luz quanto
+    a escurid\xE3o como partes insepar\xE1veis do mundo \u2014 e da alma.\n\nEm combate,
+    alternam entre golpes corpo a corpo imbu\xEDdos de energia sombria e b\xEAn\xE7\xE3os
+    luminosas que sustentam seus aliados"
+  PrimaryStat: 2
+  weaponProficiencies: 09000000
+  baseHealth: 90
+  baseResource: 140
+  resourceName: Mana
+  baseStrength: 6
+  baseAgility: 6
+  baseIntelligence: 16
+  baseStamina: 9
+  healthGrowth: 2
+  resourceGrowth: 3
+  strengthGrowth: 0
+  agilityGrowth: 1
+  intelligenceGrowth: 3
+  staminaGrowth: 2
+  baseClassAbilities:
+  - ability: {fileID: 11400000, guid: e69e4c8e69b59b14bb5f192da6f10975, type: 2}
+    levelRequired: 1
+  - ability: {fileID: 11400000, guid: 6fe5c14adbc4da34a86bbedd9302001f, type: 2}
+    levelRequired: 2
+  - ability: {fileID: 11400000, guid: f212b81307eab484596eb7c172bf9e68, type: 2}
+    levelRequired: 4
+  - ability: {fileID: 11400000, guid: 917ea372042f85b4bbe398152a399d83, type: 2}
+    levelRequired: 8
+  - ability: {fileID: 11400000, guid: 4987618d46bf54d419c7dd008355eced, type: 2}
+    levelRequired: 10
+  - ability: {fileID: 11400000, guid: 405399968d8dc9840af38ef377bc571b, type: 2}
+    levelRequired: 12
+  - ability: {fileID: 11400000, guid: f26721461dd38644f97c2d679af83c46, type: 2}
+    levelRequired: 15
+  - ability: {fileID: 11400000, guid: 535fca5d008ba374b84c855513f493f2, type: 2}
+    levelRequired: 18
+  - ability: {fileID: 11400000, guid: 8a50068ecf7e4e94a9f7d5471e4e9b4a, type: 2}
+    levelRequired: 20
+  specializations: []
+  startingEquipment:
+  - {fileID: 11400000, guid: b4d834c41fac39c4fbdb8a6f77706c51, type: 2}
+  - {fileID: 11400000, guid: 26dd4d4c44b8dcc4e850bb1b3dae11af, type: 2}
+  - {fileID: 11400000, guid: b01d3961b6ec3bc498925b76f6b04144, type: 2}
+  - {fileID: 11400000, guid: 77fc6b1ce3759c742a19c8d9e98b6cfb, type: 2}
+  - {fileID: 11400000, guid: 4c429e05d50690340a1cce7a14cb83f5, type: 2}
+  startingInventoryItems: []

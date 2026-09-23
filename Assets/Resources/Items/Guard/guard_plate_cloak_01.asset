@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc3482259a9ed0479e45c845bacc279, type: 3}
+  m_Name: guard_plate_cloak_01
+  m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
+  itemID: guard_plate_cloak_01
+  itemName: Capa de Guarda
+  icon: {fileID: 21300000, guid: e399808bbd371d04bbf5c1cca82e00fc, type: 3}
+  quality: 1
+  maxStackSize: 1
+  sellPrice: 36
+  requiredLevel: 1
+  itemLevel: 20
+  autoGenerateStats: 1
+  primaryStatFocus: 0
+  Stats:
+  - Stat: 4
+    Value: 914
+  - Stat: 3
+    Value: 3
+  - Stat: 7
+    Value: 1
+  - Stat: 0
+    Value: 2
+  equipmentSlot: 7
+  femaleArmorPrefab: {fileID: 7182624238594940511, guid: c56ada17f76c83f49a0d404307f89d90, type: 3}
+  maleArmorPrefab: {fileID: 7642707173988878597, guid: b1d4a01b6bf13a641aa692b30a91e0a0, type: 3}
+  armorType: 3
+  ColorType: 3
+  ColorVariations: []

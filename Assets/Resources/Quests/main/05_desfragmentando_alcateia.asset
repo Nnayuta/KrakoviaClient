@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b84de2063e76b341981bb714e245e35, type: 3}
+  m_Name: 05_desfragmentando_alcateia
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  QuestID: 05_desfragmentando_alcateia
+  Category: 0
+  QuestName: Desfragmentando a Alcateia
+  Description: "Ent\xE3o a suspeita da Cleide estava certa! Os glitches est\xE3o
+    corrompendo os animais. O 'pathfinding' deles deve estar todo quebrado, e \xE9
+    por isso que est\xE3o se aproximando da vila. Voc\xEA parece mais robusto que
+    um PC da Xuxa. Equipe sua melhor arma e v\xE1 'desfragmentar' aquela alcateia.
+    Comece com uns tr\xEAs, pra eles entenderem quem manda!"
+  OnAcceptDialogue: "A anomalia na floresta foi confirmada: os lobos locais foram
+    afetados pelos glitches, tornando-se 'Lobos Corrompidos'. Valdisnei me encarregou
+    de 'desfragmentar' a amea\xE7a, o que, na pr\xE1tica, significa derrotar 3 deles
+    para tornar a \xE1rea segura novamente. Hora de testar minhas habilidades."
+  OnInProgressDialogue: "Eles se movem de forma err\xE1tica, como se estivessem com
+    500 de ping. Use isso a seu favor."
+  OnCompleteDialogue: "Excelente! Voc\xEA se move com a fluidez de um jogo bem otimizado!
+    Com esses lobos fora do caminho, a vila fica mais segura por enquanto. Mas sinto
+    que isso \xE9 s\xF3 o come\xE7o. As fendas est\xE3o se tornando mais inst\xE1veis.
+    Descanse, pegue seu pr\xEAmio. Voc\xEA mereceu. O grind... digo, a aventura...
+    est\xE1 s\xF3 come\xE7ando"
+  RequiredLevel: 1
+  PrerequisiteQuests:
+  - {fileID: 11400000, guid: e5b6f897de33a56419538597588dafd8, type: 2}
+  QuestGiver: {fileID: 11400000, guid: 71cb35793b4959f4eb5cd856bd6f304e, type: 2}
+  QuestCompleter: {fileID: 11400000, guid: 71cb35793b4959f4eb5cd856bd6f304e, type: 2}
+  Objectives:
+  - Type: 0
+    Description: '{current}/{required} Lobos'
+    TargetID: wolf_3fab7236
+    RequiredAmount: 3
+  GuaranteedRewards: []
+  ChooseOneRewards: []

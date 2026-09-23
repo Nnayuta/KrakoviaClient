@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccee6b9651ac5240984dcddbd44e73d, type: 3}
+  m_Name: potion_vida_superior
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableItem
+  itemID: potion_vida_superior
+  itemName: "Po\xE7\xE3o Superior de Vida"
+  icon: {fileID: 21300000, guid: 4e8b35477a7fb5a46870c1973a523722, type: 3}
+  quality: 3
+  maxStackSize: 100
+  sellPrice: 117
+  requiredLevel: 15
+  itemLevel: 12
+  autoGenerateStats: 0
+  primaryStatFocus: 0
+  Stats: []
+  instantHealthGain: 250
+  instantResourceGain: 0
+  effectToApply: {fileID: 0}

@@ -1,0 +1,90 @@
+# ==========================================
+# Unity Standard .gitignore
+# ==========================================
+
+# Unity generated / Cache folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]serSettings/
+
+# Asset Store tools & PlasticSCM
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/PlasticSCM*
+ignore.conf
+
+# Exported / Generated runtime data
+server_world_data.json
+UpgradeLog.htm
+sysinfo.txt
+crashlytics-build.properties
+~UnityDirMonSyncFile~*
+
+# Root SRP auto-generated command buffers
+/ComputeCommandBuffer.cs
+/IBaseCommandBuffer.cs
+/IComputeCommandBuffer.cs
+/IRasterCommandBuffer.cs
+/IUnsafeCommandBuffer.cs
+/RasterCommandBuffer.cs
+/UnsafeCommandBuffer.cs
+
+# Addressables build / bin data
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treaming[Aa]ssets/aa.meta
+/[Aa]ssets/[Ss]treaming[Aa]ssets/*/aa/*
+
+# ==========================================
+# IDE & Editor files
+# ==========================================
+
+# Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+
+# Generated Project and Solution files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# Build Artifacts
+# ==========================================
+*.apk
+*.aab
+*.app
+*.unitypackage

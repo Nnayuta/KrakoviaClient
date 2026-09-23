@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69582f7ecca2a9e40ba76bb0bbec2c6b, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerClass
+  classID: mage
+  className: Mago
+  icon: {fileID: 21300000, guid: fb9bcc3943d1ca94497fd61e5e8c2fde, type: 3}
+  classDescription: 
+  PrimaryStat: 2
+  weaponProficiencies: 09000000
+  baseHealth: 80
+  baseResource: 150
+  resourceName: Mana
+  baseStrength: 5
+  baseAgility: 7
+  baseIntelligence: 18
+  baseStamina: 8
+  healthGrowth: 1
+  resourceGrowth: 3
+  strengthGrowth: 0
+  agilityGrowth: 1
+  intelligenceGrowth: 3
+  staminaGrowth: 1
+  baseClassAbilities: []
+  specializations: []
+  startingEquipment:
+  - {fileID: 11400000, guid: 26dd4d4c44b8dcc4e850bb1b3dae11af, type: 2}
+  - {fileID: 11400000, guid: b01d3961b6ec3bc498925b76f6b04144, type: 2}
+  - {fileID: 11400000, guid: 77fc6b1ce3759c742a19c8d9e98b6cfb, type: 2}
+  - {fileID: 11400000, guid: 4c429e05d50690340a1cce7a14cb83f5, type: 2}
+  - {fileID: 11400000, guid: bdcd9e347e2df1f48a01de94f46cc1e9, type: 2}
+  startingInventoryItems: []
