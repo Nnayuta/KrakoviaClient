@@ -6,11 +6,11 @@
 
 This repository contains the Unity project responsible for game rendering, client-side prediction, entity interpolation, user interface, input handling, audio, visual effects, and network synchronization with the **Krakovia Server**.
 
-> **Project status:** Experimental / Game Jam project  
-> **Development time:** 30 days  
-> **Engine:** Unity 6 (6000.6.2f1)  
-> **Render Pipeline:** Universal Render Pipeline (URP)  
-> **Server:** C# / .NET 9 — [Krakovia Server Repository](https://github.com/)  
+> **Project status:** Experimental / Game Jam project
+> **Development time:** 30 days
+> **Engine:** Unity 6 (6000.6.2f1)
+> **Render Pipeline:** Universal Render Pipeline (URP)
+> **Server:** C# / .NET 9 — [Krakovia Server Repository](https://github.com/Nnayuta/KrakoviaServer)
 
 ---
 
