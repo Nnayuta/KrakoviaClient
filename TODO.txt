@@ -1,1 +1,0 @@
-BUG: NPCS sumindo visualmente do nada, porem continua recebendo dano. (ou seja eles somem apenas no client)
